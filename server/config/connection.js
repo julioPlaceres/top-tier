@@ -1,6 +1,6 @@
-import { connect, connection } from 'mongoose';
+const mongoose = require('mongoose');
 
-connect(
+mongoose.connect(
   process.env.MONGODB_URI || 'mongodb://localhost/top-tier',
   {
     useNewUrlParser: true,
@@ -10,4 +10,4 @@ connect(
   }
 );
 
-export default connection;
+module.exports = mongoose.connection;

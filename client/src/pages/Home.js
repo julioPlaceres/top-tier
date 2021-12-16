@@ -23,10 +23,9 @@ const Home = () => {
     </div>
 </div>
 </section>
-
 <div class="row">
 <div class="col-md-4">
-    <h2>Who are we?</h2>
+
     <p>
         Toptier cabinets refinishing , Company in Cabinet Refinishing in the Orlando and the Florida area. We work to be the Best!! and to Exceed Expectation!!
         contact us for a free estimate

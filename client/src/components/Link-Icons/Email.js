@@ -7,7 +7,7 @@ const Email = () => {
         <small>
           <HiOutlineMail />
           <span class="">
-            <a href="tel:+1 (309) 533-9965"> +1 (309) 533-9965 </a>
+            <a href=""></a>
           </span>
         </small>
       </div>

@@ -1,5 +1,5 @@
-# Toptier cabinets refinishing  ![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
-Toptier cabinets refinishing , Company in Cabinet Refinishing in the Orlando and the Florida area. We work to be the Best!! and to Exceed Expectation.
+# Toptier cabinet refinishing  ![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
+Toptier cabinet refinishing, Company in Cabinet Refinishing in the Orlando and the Florida area. We work to be the Best!! and to Exceed Expectation.
 ## Table of Contents:
 * [Installation](#installation)
 * [Usage](#usage)

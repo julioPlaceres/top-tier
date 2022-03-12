@@ -7,7 +7,9 @@ const Email = () => {
         <small>
           <HiOutlineMail />
           <span class="">
-            <a href=""></a>
+            <a href="mailto:info@yourcompany.example.com">
+              toptiercabinetsrefinishing@gmail.com
+            </a>
           </span>
         </small>
       </div>

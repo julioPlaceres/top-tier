@@ -1,13 +1,9 @@
-import Navbar from "../components/Navbar/Navbar";
-import TopNavBar from "../components/Top-Navbar/TopNavBar";
-
-const Home = () => {
+function Home() {
   return (
-    <div class="container">
-      <TopNavBar/>
-      <Navbar/>
-    </div>
+    <>
+    <h1>Home Page</h1>
+    </>
   );
-};
+}
 
 export default Home;

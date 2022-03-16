@@ -1,12 +1,13 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import "./App.css"
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { ApolloClient, ApolloProvider, InMemoryCache } from '@apollo/client';
 import Home from './pages/Home';
 import About from './pages/About';
 import Services from './pages/Services';
-import Testimonials from './pages/Testimonials';
+import Reviews from './pages/Reviews';
 import Contact from './pages/Contact';
 import NotFound from './pages/NotFound';
+import Navigation from "./components/Navbar/Navbar";
 
 const client = new ApolloClient({
   uri: '/graphql',
@@ -16,30 +17,21 @@ const client = new ApolloClient({
 function App() {
   return (
     <ApolloProvider client={client}>
-      <Router>
-        <div className="flex-column justify-center align-center min-100-vh bg-primary">
-          <Switch>
-            <Route exact path="/">
-              <Home />
-            </Route>
-            <Route exact path="/About">
-              <About />
-            </Route>
-            <Route exact path="/Testimonials">
-              <Testimonials />
-            </Route>
-            <Route exact path="/Contact">
-              <Contact />
-            </Route>
-            <Route exact path="/Services">
-              <Services />
-            </Route>
-            <Route>
-              <NotFound />
-            </Route>
-          </Switch>
-        </div>
-      </Router>
+    <Router>
+      <section>
+        <header>
+          <Navigation/>
+          <Routes>
+            <Route path="/home" element={<Home/>} />
+            <Route path="/about" element={<About/>} />
+            <Route path="/services" element={<Services/>} />
+            <Route path="/reviews" element={<Reviews/>} />
+            <Route path="/contact" element={<Contact/>} />
+            <Route path="/" element={<NotFound/>} />
+          </Routes>
+        </header>
+      </section>
+    </Router>
     </ApolloProvider>
   );
 }

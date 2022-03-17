@@ -1,25 +1,27 @@
-import { AiFillPhone } from "react-icons/ai";
+import EmailIcon from "../Link-Icons/Email";
+import PhoneIcon from "../Link-Icons/Phone";
+import Facebook from "../Link-Icons/Facebook";
+import Twitter from "../Link-Icons/Twitter";
+import Instagram from "../Link-Icons/Instagram";
+import Linkedin from "../Link-Icons/Linkedin";
+import Youtube from "../Link-Icons/Youtube";
+
+// TODO: Add proper formatting, consider using containers instead of div (Just a thought)
 
 const TopNavBar = () => {
   return (
     <div class="container">
-      <div class="">
-        <div class="">
-          <small>
-            <AiFillPhone />
-            <span class="">
-              <a href="tel:+1 (309) 533-9965"> +1 (309) 533-9965 </a>
-            </span>
+      <div className="">
+        <EmailIcon />
+        <PhoneIcon />
+      </div>
 
-            <i class="bi bi-envelope"></i>
-            <span>
-              <a href="mailto:info@yourcompany.example.com">
-                {" "}
-                info@yourcompany.example.com
-              </a>
-            </span>
-          </small>
-        </div>
+      <div className="">
+        <Facebook />
+        <Twitter />
+        <Instagram />
+        <Linkedin />
+        <Youtube />
       </div>
     </div>
   );

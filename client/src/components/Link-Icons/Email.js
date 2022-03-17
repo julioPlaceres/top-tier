@@ -1,18 +1,16 @@
-import { HiOutlineMail } from "react-icons/hi";
+import { MdEmail } from "react-icons/md";
 
 const Email = () => {
   return (
-    <div class="container">
-      <div class="">
-        <small>
-          <HiOutlineMail />
-          <span class="">
-            <a href="mailto:info@yourcompany.example.com">
-              toptiercabinetsrefinishing@gmail.com
-            </a>
-          </span>
-        </small>
-      </div>
+    <div className="container">
+      <small>
+        <MdEmail />
+        <span>
+          <a href="mailto:info@yourcompany.example.com">
+            toptiercabinetsrefinishing@gmail.com
+          </a>
+        </span>
+      </small>
     </div>
   );
 };

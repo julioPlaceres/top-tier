@@ -1,5 +1,3 @@
-.link-icons {
-  border: 5px;
+.email, .facebook, .instagram, .youtube {
   background-color: red;
-  border-color: red;
 }

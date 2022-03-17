@@ -2,7 +2,7 @@ import { MdFacebook } from "react-icons/md";
 
 const Facebok = () => {
   return (
-    <div className="container">
+    <>
       <small>
         <a
           target="_bank"
@@ -11,7 +11,7 @@ const Facebok = () => {
           <MdFacebook />
         </a>
       </small>
-    </div>
+    </>
   );
 };
 

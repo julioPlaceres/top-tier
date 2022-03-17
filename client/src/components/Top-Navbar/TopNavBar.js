@@ -12,7 +12,7 @@ import "./TopNavBar.css";
 
 const TopNavBar = () => {
   return (
-    <Container className="bg-light">
+    <Container fluid className="bg-light">
       <Row>
       <Col xs={12} md={6} lg={3} className="email">
         <EmailIcon />

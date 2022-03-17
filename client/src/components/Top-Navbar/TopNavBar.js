@@ -12,16 +12,38 @@ import "./TopNavBar.css";
 
 const TopNavBar = () => {
   return (
-    <Container fluid className="bg-light">
-      <Stack direction="horizontal">
-        <EmailIcon className="link-icons" />
-        <PhoneIcon className="link-icons" />
-        <Facebook className="link-icons" />
-        <Twitter className="link-icons" />
-        <Instagram className="link-icons" />
-        <Linkedin className="link-icons" />
-        <Youtube className="link-icons" />
-      </Stack>
+    <Container className="bg-light">
+      <Row>
+      <Col md={3} className="email">
+        <EmailIcon />
+        </Col>
+      
+        <Col md={2} className="phone">
+        <PhoneIcon  />
+        </Col>
+
+        <Col md={2}/>
+
+        <Col xs="auto" className="facebook">
+        <Facebook  />
+        </Col>
+
+        <Col xs="auto" className="twitter">
+        <Twitter  />
+        </Col>
+
+        <Col xs="auto" className="instagram">
+        <Instagram  />
+        </Col>
+
+        <Col xs="auto" className="linkedin">
+        <Linkedin  />
+        </Col>
+
+        <Col xs="auto" className="youtube">
+        <Youtube />
+        </Col>
+        </Row>
     </Container>
   );
 };

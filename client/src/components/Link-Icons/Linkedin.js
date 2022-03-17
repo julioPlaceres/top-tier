@@ -4,13 +4,13 @@ import { AiFillLinkedin } from "react-icons/ai";
 
 const Linkedin = () => {
   return (
-    <div className="container">
+    <>
       <small>
         <a target="_bank" href="">
           <AiFillLinkedin />
         </a>
       </small>
-    </div>
+    </>
   );
 };
 

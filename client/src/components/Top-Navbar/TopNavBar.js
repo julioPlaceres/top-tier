@@ -12,17 +12,17 @@ import "./TopNavBar.css";
 
 const TopNavBar = () => {
   return (
-    <Container className="bg-light">
+    <Container fluid className="bg-light">
       <Row>
-      <Col md={3} className="email">
+      <Col xs={12} md={6} lg={3} className="email">
         <EmailIcon />
         </Col>
       
-        <Col md={2} className="phone">
+        <Col xs={12} md={6} lg={3} className="phone">
         <PhoneIcon  />
         </Col>
 
-        <Col md={2}/>
+        <Col xs="auto" md="auto" lg={3} className="col1"/>
 
         <Col xs="auto" className="facebook">
         <Facebook  />
@@ -43,6 +43,7 @@ const TopNavBar = () => {
         <Col xs="auto" className="youtube">
         <Youtube />
         </Col>
+        <Col xs={12} md={6} lg={2} className="col2"/>
         </Row>
     </Container>
   );

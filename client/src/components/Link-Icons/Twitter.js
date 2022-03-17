@@ -4,13 +4,13 @@ import { AiFillTwitterCircle } from "react-icons/ai";
 
 const Twitter = () => {
   return (
-    <div className="container">
+    <>
       <small>
         <a target="_bank" href="">
           <AiFillTwitterCircle />
         </a>
       </small>
-    </div>
+    </>
   );
 };
 

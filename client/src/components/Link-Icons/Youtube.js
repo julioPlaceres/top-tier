@@ -4,13 +4,13 @@ import { AiFillYoutube } from "react-icons/ai";
 
 const Youtube = () => {
   return (
-    <div className="container">
+    <>
       <small>
         <a target="_bank" href="">
           <AiFillYoutube />
         </a>
       </small>
-    </div>
+    </>
   );
 };
 

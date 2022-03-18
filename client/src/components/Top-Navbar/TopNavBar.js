@@ -13,31 +13,32 @@ import "./TopNavBar.css";
 const TopNavBar = () => {
   return (
     <Container fluid className="bg-light">
-      <Row>
-        <Col xs={1} md={6} lg={3} className="email">
+      <Row className="icon-row">
+        <Col xs={12} md={3} lg={3} className="phone">
+          <PhoneIcon />
+        </Col>
+
+        <Col xs={12} md={5} lg={3} className="email">
           <EmailIcon />
         </Col>
 
-        <Col xs={5} md={6} lg={3} className="phone">
-          <PhoneIcon />
-        </Col>
-        <Col xs={1} className="facebook">
+        <Col xs={1} className="facebook icon">
           <Facebook />
         </Col>
 
-        <Col xs={1} className="twitter">
+        <Col xs={1} className="twitter icon">
           <Twitter />
         </Col>
 
-        <Col xs={1} className="instagram">
+        <Col xs={1} className="instagram icon">
           <Instagram />
         </Col>
 
-        <Col xs={1} className="linkedin">
+        <Col xs={1} md={1} className="linkedin icon">
           <Linkedin />
         </Col>
 
-        <Col xs={1} className="youtube">
+        <Col xs={1} md={1} className="youtube icon">
           <Youtube />
         </Col>
       </Row>

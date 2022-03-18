@@ -1,14 +1,10 @@
-.email,
-.col1,
-.twitter,
-.linkedin,
-.col2 {
-  /* background-color: red; */
+.icon {
+  width: 25px;
 }
 
-.phone,
-.facebook,
-.instagram,
-.youtube {
-  /* background-color: blue; */
+@media (min-width: 768px) {
+  .icon-row {
+    display: flex;
+    flex-wrap: nowrap;
+  }
 }

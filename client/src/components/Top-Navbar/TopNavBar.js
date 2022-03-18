@@ -1,4 +1,4 @@
-import { Container, Col, Stack, Row } from "react-bootstrap";
+import { Container, Col, Row } from "react-bootstrap";
 import EmailIcon from "../Link-Icons/Email";
 import PhoneIcon from "../Link-Icons/Phone";
 import Facebook from "../Link-Icons/Facebook";
@@ -14,37 +14,33 @@ const TopNavBar = () => {
   return (
     <Container fluid className="bg-light">
       <Row>
-      <Col xs={12} md={6} lg={3} className="email">
-        <EmailIcon />
-        </Col>
-      
-        <Col xs={12} md={6} lg={3} className="phone">
-        <PhoneIcon  />
+        <Col xs={1} md={6} lg={3} className="email">
+          <EmailIcon />
         </Col>
 
-        <Col xs="auto" md="auto" lg={3} className="col1"/>
-
-        <Col xs="auto" className="facebook">
-        <Facebook  />
+        <Col xs={5} md={6} lg={3} className="phone">
+          <PhoneIcon />
+        </Col>
+        <Col xs={1} className="facebook">
+          <Facebook />
         </Col>
 
-        <Col xs="auto" className="twitter">
-        <Twitter  />
+        <Col xs={1} className="twitter">
+          <Twitter />
         </Col>
 
-        <Col xs="auto" className="instagram">
-        <Instagram  />
+        <Col xs={1} className="instagram">
+          <Instagram />
         </Col>
 
-        <Col xs="auto" className="linkedin">
-        <Linkedin  />
+        <Col xs={1} className="linkedin">
+          <Linkedin />
         </Col>
 
-        <Col xs="auto" className="youtube">
-        <Youtube />
+        <Col xs={1} className="youtube">
+          <Youtube />
         </Col>
-        <Col xs={12} md={6} lg={2} className="col2"/>
-        </Row>
+      </Row>
     </Container>
   );
 };

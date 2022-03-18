@@ -1,7 +1,14 @@
-.email, .col1, .twitter, .linkedin, .col2 {
-  background-color: red;
+.email,
+.col1,
+.twitter,
+.linkedin,
+.col2 {
+  /* background-color: red; */
 }
 
-.phone, .facebook, .instagram, .youtube {
-  background-color: blue;
+.phone,
+.facebook,
+.instagram,
+.youtube {
+  /* background-color: blue; */
 }

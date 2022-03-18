@@ -1,5 +1,6 @@
-import { MdEmail } from "react-icons/md";
 import "./Link-Icons.css";
+import { MdEmail } from "react-icons/md";
+
 const Email = () => {
   return (
     <a

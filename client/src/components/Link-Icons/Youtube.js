@@ -1,7 +1,5 @@
-import { AiFillYoutube } from "react-icons/ai";
 import "./Link-Icons.css";
-
-// TODO: Add Youtube Page once created
+import { AiFillYoutube } from "react-icons/ai";
 
 const Youtube = () => {
   return (

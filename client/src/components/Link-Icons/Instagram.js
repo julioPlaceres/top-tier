@@ -1,16 +1,13 @@
 import { AiFillInstagram } from "react-icons/ai";
+import "./Link-Icons.css";
 
 // Add Instagram once created
 
 const Instagram = () => {
   return (
-    <>
-      <small>
-        <a target="_bank" href="">
-          <AiFillInstagram />
-        </a>
-      </small>
-    </>
+    <a className="link-icons" target="_bank" href="">
+      <AiFillInstagram />
+    </a>
   );
 };
 

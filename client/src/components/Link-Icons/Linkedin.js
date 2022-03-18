@@ -1,16 +1,12 @@
 import { AiFillLinkedin } from "react-icons/ai";
-
+import "./Link-Icons.css";
 // TODO: Add Linkedin once created
 
 const Linkedin = () => {
   return (
-    <>
-      <small>
-        <a target="_bank" href="">
-          <AiFillLinkedin />
-        </a>
-      </small>
-    </>
+    <a className="link-icons" target="_bank" href="">
+      <AiFillLinkedin />
+    </a>
   );
 };
 

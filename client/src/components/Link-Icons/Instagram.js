@@ -1,7 +1,5 @@
-import { AiFillInstagram } from "react-icons/ai";
 import "./Link-Icons.css";
-
-// Add Instagram once created
+import { AiFillInstagram } from "react-icons/ai";
 
 const Instagram = () => {
   return (

@@ -1,6 +1,5 @@
-import { AiFillLinkedin } from "react-icons/ai";
 import "./Link-Icons.css";
-// TODO: Add Linkedin once created
+import { AiFillLinkedin } from "react-icons/ai";
 
 const Linkedin = () => {
   return (

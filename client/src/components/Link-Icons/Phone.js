@@ -1,5 +1,5 @@
-import { AiFillPhone } from "react-icons/ai";
 import "./Link-Icons.css";
+import { AiFillPhone } from "react-icons/ai";
 
 const Phone = () => {
   return (

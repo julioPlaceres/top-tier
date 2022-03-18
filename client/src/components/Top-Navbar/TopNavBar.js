@@ -8,8 +8,6 @@ import Linkedin from "../Link-Icons/Linkedin";
 import Youtube from "../Link-Icons/Youtube";
 import "./TopNavBar.css";
 
-// TODO: Add proper formatting, consider using containers instead of div (Just a thought)
-
 const TopNavBar = () => {
   return (
     <Container fluid className="bg-light">

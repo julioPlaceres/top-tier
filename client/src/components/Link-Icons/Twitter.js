@@ -1,7 +1,5 @@
-import { AiFillTwitterCircle } from "react-icons/ai";
 import "./Link-Icons.css";
-
-// TODO: Add Twitter Page once created
+import { AiFillTwitterCircle } from "react-icons/ai";
 
 const Twitter = () => {
   return (

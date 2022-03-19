@@ -1,0 +1,11 @@
+.img-caption-header {
+  color: black;
+  position: absolute;
+  bottom: 100px;
+}
+
+.img-caption-p {
+  color: black;
+  position: absolute;
+  bottom: 5px;
+}

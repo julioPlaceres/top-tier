@@ -1,11 +1,9 @@
-.img-caption-header {
-  color: black;
-  position: absolute;
-  bottom: 100px;
+.main-img {
+  background-image: url("../images/TopTier_img1.jpg");
+  background-size: cover;
 }
 
-.img-caption-p {
-  color: black;
-  position: absolute;
-  bottom: 5px;
+/* This sets the Image Tag to hide for the background image to display */
+.main-img-holder {
+  visibility: hidden;
 }

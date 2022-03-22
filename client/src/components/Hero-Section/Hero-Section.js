@@ -1,9 +1,6 @@
 import "./Hero-Section.css";
 import Img1 from "../images/TopTier_img1.jpg";
 import Image from "react-bootstrap/Image";
-import logo from "../images/LogoImg.jpg";
-
-// Show Images from different services provided and display brief information about it in the caption
 
 const HeroSection = () => {
   return (

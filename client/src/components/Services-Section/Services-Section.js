@@ -7,8 +7,8 @@ const ServicesSection = () => {
   return (
     <Container>
       <CardServices title="Cabinet Painting"
-      text="TopTier provides you with excellency when it comes to cabinet painting/repairing. With high quality paint and
-      equipment, your cabinets will look new, see our gallery for photos of happy satisfy customers."
+      text="Top Tier provides excellent cabinet painting/repairing service. With high-quality paint and
+      equipment, your cabinets will look new.  See our gallery for photos of our work."
       btnText="See more"
       src={Cabinets}/>
 

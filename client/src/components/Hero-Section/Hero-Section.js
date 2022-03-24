@@ -1,5 +1,5 @@
 import "./Hero-Section.css";
-import Img1 from "../images/TopTier_img1.jpg";
+import Img1 from "../images/Cabinets_1.jpg";
 import Image from "react-bootstrap/Image";
 
 const HeroSection = () => {

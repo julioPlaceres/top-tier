@@ -1,0 +1,10 @@
+:root {
+    --blue: #1e90ff;
+    --white: #ffffff;
+    --roseGold: #b76e79;
+  }
+
+.card-wood{
+    background-image: url("../images/cardback.jpg");
+    background-size: cover;
+}
